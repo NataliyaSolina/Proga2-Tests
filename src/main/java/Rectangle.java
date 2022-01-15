@@ -11,4 +11,7 @@ public class Rectangle {
         return this.a * this.b;
     }
 
+    public double perimeter() {
+        return (this.a + this.b) * 2;
+    }
 }
