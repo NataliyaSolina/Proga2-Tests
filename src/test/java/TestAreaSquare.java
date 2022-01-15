@@ -6,12 +6,11 @@ public class TestAreaSquare {
 
     @Test
     public void testAreaSquare () {
-        Square s = new Square(5);
-        Assert.assertEquals(s.area(), 25);
+        Square s = new Square(0);
+        Assert.assertEquals(s.area(), 0);
+
+        for (; s.l < 100; s.l++)
+            Assert.assertEquals(s.area(), s.l * s.l);
     }
-    @Test
-    public void testAreaRectangle () {
-        Rectangle r = new Rectangle(5, 8);
-        Assert.assertEquals(r.area(),40);
-    }
+
 }
