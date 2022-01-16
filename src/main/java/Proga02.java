@@ -7,5 +7,9 @@ public class Proga02 {
         Rectangle rc = new Rectangle(6, 7);
         System.out.println("Площадь прямоугольника со сторонами " + rc.a + " и " + rc.b + " = " + rc.area());
         System.out.println("Периметр прямоугольника со сторонами " + rc.a + " и " + rc.b + " = " + rc.perimeter());
+
+        Circle cl = new Circle(5);
+        System.out.println("Площадь круга с радиусом " + cl.r + " = " + cl.area());
+        System.out.println("Периметр круга с радиусом " + cl.r + " = " + cl.perimeter());
     }
 }
