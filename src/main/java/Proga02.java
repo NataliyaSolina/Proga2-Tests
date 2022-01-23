@@ -24,6 +24,6 @@ public class Proga02 {
         float c5 = (float) (a / b);
         System.out.println("a= " + a + " b= " + b + " c0= " +c0 + " c1= " + c1 + " c2= " + c2 + " c3= " + c3 + " c4= " + c4 + " c5= " + c5);
 
-
+        System.out.println(c0 == 0? "c0 = 0 " : "c0 != 0");
     }
 }
